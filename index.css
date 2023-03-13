@@ -1,0 +1,49 @@
+body{
+    background: url(https://i.pinimg.com/originals/e0/58/e0/e058e04af41deb80a3232f29c734ac7f.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    }
+    .link{
+        text-decoration: none;
+        color: azure;
+        font-family: 'Rubik Iso', cursive;
+    
+    }
+    .titulo{
+        font-family: 'Rubik Iso', cursive;
+        color: mintcream;
+        
+        
+    }
+    #contenedor{
+        float: right;
+        
+        }
+        .banner_img{
+        float: right;
+        animation: movimiento 2.5s linear infinite;
+        }
+        .banner_img{
+            display: block;
+            background-position-x: center;
+        }
+        @keyframes movimiento{
+            0%{
+                transform: translateY(0);
+            }
+        50%{
+            transform: translateY(20px);
+        
+        }
+        100px{
+            transform: translateY(0);
+        
+        }
+        
+        }
+        .imagenes{
+           border-radius: 100%;
+          
+        }
+        
